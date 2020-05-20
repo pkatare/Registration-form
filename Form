@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Registration Form</title>
+  <style>
+  body{
+  background-color:#00ff00;
+      }
+	 h1{
+	 color:black;
+	 font-size:bold;
+	 	 font-family:italic;
+	  }
+	  form{
+	  color:black;
+	  	padding:20px;
+		margin:20px;
+	  }
+	  input[type=text]{
+	  width:20%;
+	  padding:5px 10px 2px;
+	  margin:10px 20px 20px;
+	  }
+	  input[type=radio],input[type=checkbox]{
+	  width:1%;
+	  padding:25px 5px;
+	  margin:20px 10px 20px;
+	  display:inline block;
+	  background:#f1f1f1;
+	  border:none;
+	  }
+.btn{
+      width:10%;
+	  padding:5px 10px 5px;
+	  margin:10px 5px ;
+	  display:inline block;
+	  background:#f1f1f1;
+	  border:none;
+	  cursor:pointer;
+	  opacity:0.9;
+	  }
+	  .btn:hover{
+	  	  opacity:0.9;
+		  	  }
+	.city{
+			  width:5%;
+	  padding:5px 10px 5px;
+	  margin:10px 5px ;
+	 
+			  }
+  </style>
+ </head>
+ <body>
+ <h1><center>Registration form</center></h1><br><hr>
+ <form><center><label for="fname">First Name :</label>
+          <input type="text"name="text" id="fname"></input>
+                          <br>
+         <label for="lname">Last Name :</label>
+		 <input type="text" name="text" id="lname"></input>
+		                   <br>
+      <label for="pin">pin code  :</label>
+     <input type="text" name="pin">
+	                      <br>
+		
+	  <label for="gender">Gender :</label>
+     <input type="radio" value="male" name="gender">male</input>
+     <input type="radio" value="female" name="gender">female</input><br>
+	 
+			  
+	<label for="vehicle">Vehicle:</label>
+        <input type="checkbox" value="car" name="vehicle">car</input>
+		<input type="checkbox" value="bike" name="vehicle">bike</input>
+		<br><br>
+<label for="city">city :</label>
+		<select id="city" name="cars">
+		<option value="banglore">banglore</option>
+		<option value="pune">pune</option>
+		<option value="mumbai">mumbai</option></select><br><br><br>
+
+		<button type="submit" class="btn"> save</button>
+		<button type="submit" class="btn">cancel </button>
+			
+	</center></form> 
+ </body>
+</html>
